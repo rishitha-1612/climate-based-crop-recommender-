@@ -1,14 +1,17 @@
 # Problem Statement
 
-Climate variability in India, including irregular rainfall and temperature changes, often results in droughts, floods, and reduced crop yields. Farmers lack an integrated system that uses existing soil and climate data to recommend suitable crops, estimate yields, and predict climate risks effectively.
-
-# Description
-
-This project aims to develop an AI-powered agricultural decision support system using two datasets containing soil nutrients (N, P, K), temperature, humidity, pH, rainfall, and historical crop production records. The system will analyze these parameters to recommend appropriate crops for specific regions, predict expected yield, and classify potential climate risks such as drought and flood. By integrating these predictions, the platform will help farmers and policymakers plan agricultural activities more efficiently and minimize climate-induced losses.
+Unpredictable rainfall, changing temperature, and soil nutrient imbalance in India affect agricultural productivity and crop selection. Farmers often lack a reliable system to recommend suitable crops, estimate yields, and assess drought risks using available soil and climate data.
 
 # Objectives
 
-To recommend suitable crops based on soil and climate parameters (N, P, K, temperature, humidity, pH, rainfall).
+To recommend suitable crops based on soil nutrients (N, P, K), temperature, humidity, pH, and rainfall.
 To predict agricultural yield using historical production and area data.
-To classify and predict drought and flood risks using rainfall and climatic patterns.
-To provide a unified decision support system for farmers and planners to enable informed and sustainable agricultural practices.
+To identify drought risk using rainfall and climatic conditions.
+To provide a data-driven decision support system for farmers and planners.
+
+# Description
+
+This project is a machine learning-based agricultural decision support system that helps farmers and planners make informed decisions.
+It analyzes soil nutrients (N, P, K), temperature, humidity, pH, and rainfall patterns to recommend the most suitable crops for a given region.
+The system also predicts agricultural yield using historical production and area data.
+Additionally, it assesses drought risk based on rainfall thresholds, enabling proactive planning and resource allocation.
